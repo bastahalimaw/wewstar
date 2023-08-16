@@ -1,0 +1,134 @@
+
+			body{
+				margin:0;
+			}
+
+			ul{
+				list-style-type: none;
+				margin:0;
+				padding:0;
+				overflow:hidden;
+				width: 100%;
+				background-color:#0E0E0D;
+				top: 0;
+				position: fixed;
+
+			}
+
+			li{
+				float:right;
+			}
+
+			li a{
+				display:block;
+				text-decoration:none;
+				text-align:center;
+				padding: 45px 20px;
+				color: #fff;
+				border-right: 2px;
+				font-family: Courier New;
+			}
+
+			li a:hover{
+				background-color: #e76504;
+			}
+
+			li a.active{
+				background-color: #e76504;
+			}
+
+			h1
+			{
+				color: #ffff;
+				text-align: center;
+				font-family: Courier New;
+				text-shadow: 6px 6px #070707;
+			}
+             
+             .pubgg
+
+            {
+             width:750px;
+             height:450px;
+             margin-left: 70px;
+             vertical-align: top;
+
+            }
+              .dota2
+
+            {
+             width:750px;
+             height:450px;
+             margin-left: 70px;
+            }
+
+               .Cyberpunk
+            {
+             width:750px;
+             height:450px;
+            }
+
+      		footer {
+				color: #fff;
+				background-color: #404040;
+				padding: 10px
+			
+			}
+
+			p {
+				color: #fff;
+				font-size: 20px;
+				font-family: Courier New;
+			}
+
+			.wew {
+				text-align: right;
+				font-size: 12px;
+				font-family: Courier New;
+			}
+
+			.cap {
+				text-align: left;
+				float: right;
+				color: #fff;
+				margin-right: 380px;
+				font-size: 20px;
+				font-family: Courier New;
+			}
+
+			.play {
+				text-align: left;
+				float: right;
+				color: #fff;
+				margin-bottom: 40px;
+				font-size: 20px;
+				font-family: Courier New;
+				margin-right: 90px;
+				display: inline-block;
+			}
+			
+			.playy {
+				text-align: left;
+				float: right;
+				color: #fff;
+				margin-bottom: 40px;
+				font-size: 20px;
+				font-family: Courier New;
+				margin-right: 90px;
+				display: inline-block;
+			}
+
+			.log {
+				width: 100px;
+				height: 100px;
+				margin-left: 30px;
+				margin-bottom:0px; 
+			}
+
+			.vis {
+				margin-left: 80px; 
+			}
+
+			a {
+				color: #e76504;
+			}
