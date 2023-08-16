@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title></title>
+			<link rel="stylesheet" href="wewstar.css">
+	</head>
+	<body style="background-color: #191919">
+
+		
+        <ul>
+            <img src="logo.png" class="log">
+			<li><a href="about.html">About</a></li>
+			<li><a href="news.html">News</a></li>
+			<li><a href="Game.html">Games</a></li>
+			<li><a class="active" href="wewstar.html">Home</a></li>
+		</ul>
+
+        
+
+        <br>
+		<br>
+		<br>
+		<br>
+        <br>
+        <br>
+
+        <center><img src="logse.png"></center>
+
+			<h1>
+				Featured & Recommended
+			</h1>
+	</body>
+	
+	<body>
+		<div id="slider" style="z-index:-1;">
+			<div id="box">
+				<img src="a.jpg">
+		</div>
+		</div>
+		<script type="text/javascript">
+			var slider_content = document.getElementById('box')
+
+			// contain images in an array
+
+			var image = ['a','b','c','d','e'];
+
+			var i = image.length;
+
+			// function for next slide
+
+			function nextImage(){
+				if (i<image.length) {
+					i= i+1;
+				}else{
+					i = 1;
+				}
+					slider_content.innerHTML ="<img src="+image[i-1]+".jpg>";
+			}
+
+			// function for prew slide
+
+			function prewImage(){
+				if (i<image.length+1 && i>1) {
+					i= i-1;					
+				}else{
+					i = image.length;
+				}
+					slider_content.innerHTML = "<img src="+image[i-1]+".jpg>";
+			}
+
+			// script for auto image slider
+
+			setInterval(nextImage , 1000);
+		</script>
+	</body>
+
+	<body>
+		<p class="p">
+			<b>
+				Find best games here at Wewstar Vr, Arcade, Rpg, MMos, Free to Play, Early Access, <br>Action, Adventure, Casual, Indie, Massively Multiplayer, Racing, Simulation,<br> Sports, Strategy, etc...
+			</b>
+		</p>
+		<center>
+		<table border="13">
+			<tr>
+ 			   <th colspan="2" class="games">Games</th>
+ 			</tr>
+  		
+  			<tr>
+    			<td><a href="https://summertimesaga.com/">
+                    <abbr title="Summertime Saga">
+    				<img src="sts.jpg" class="sts"></a>
+                </abbr>
+    			</td>
+
+    			<td>
+    				<p class="par">
+    					Summertime Saga is an explicit
+    					dating simulator and visual
+    					novel style game which follows
+    					the male protagonist as he tries to
+    					find the truth behind his fathers
+    					recent death while juggling school,
+    					his finances, and trying to get a date.
+    				</p>
+
+    				<p class="click">
+    					(Click the image for more Info)
+    				</p>
+    			</td>
+    			
+    		<tr>
+    			<td><a href="https://store.steampowered.com/app/967050/Pacify/">
+                    <abbr title="Pacify">
+    				<img src="pacify.jpg" class="pacify"></a>
+                </abbr>
+    			</td>
+
+    			<td>
+    				<p class="par">
+    					Pacify is a fast paced,
+    					multiplayer horror game.
+    					Players are employees of PAH,
+    					Inc. ... Players need to investigate
+    					the house, find required keys
+    					and items to progress the game
+    					while keeping any evil beings pacified!
+    					And ultimately, the goal is to
+    					survive and escape.
+    				</p>
+
+    				<p class="click">
+    					(Click the image for more Info)
+    				</p>
+    			</td>
+    		</tr>
+
+    		<tr>
+    			<td><a href="https://www.epicgames.com/fortnite/en-US/home">
+                    <abbr title="Fortnite">
+    				<img src="fortnite.jpg" class="fortnite"></a>
+                </abbr>
+    			</td>
+
+    			<td>
+    				<p class="par">
+    					Fortnite is a survival game
+    					where 100 players fight against
+    					each other in player versus player
+    					combat to be the last one standing.
+    					It is a fast-paced, action-packed game,
+    					not unlike The Hunger Games, where
+    					strategic thinking is a must in order
+    					to survive.
+    				</p>
+
+    				<p class="click">
+    					(Click the image for more Info)
+    				</p>
+    			</td>
+    		</tr>
+
+    		<tr>
+    			<td><a href="https://www.pubg.com/">
+                    <abbr title="Player Unknown Battlegrounds">
+    				<img src="pubg.jpg" class="pubg"></a>
+                </abbr>
+    			</td>
+
+    			<td>
+    				<p class="par">
+    					PlayerUnknown's Battlegrounds
+    					(PUBG) is an online multiplayer
+    					battle royale game developed and
+    					published by PUBG Corporation,
+    					a subsidiary of South Korean
+    					video game company Bluehole.
+    				</p>
+
+    				<p class="click">
+    					(Click the image for more Info)
+    				</p>
+    			</td>
+    		</tr>
+
+    		<tr>
+    			<td><a href="https://store.steampowered.com/app/252490/Rust/">
+                    <abbr title="Rust">
+    				<img src="rust.jpg" class="rust">
+                </abbr>
+    			</td>
+
+    			<td>
+    				<p class="par">
+    					Rust (video game) Rust is a
+    					multiplayer-only survival
+    					video game developed by
+    					Facepunch Studios. ... The objective
+    					of Rust is to survive in the
+    					wilderness using gathered or
+    					stolen materials. Players must
+    					successfully manage their hunger,
+    					thirst, and health, or risk dying.
+    				</p>
+
+    				<p class="click">
+    					(Click the image for more Info)
+    				</p>
+    			</td>
+    		</tr>
+    	</table>
+    </center>
+
+    <center><br><a href="Game.html">
+    	<button type="button" title="See More">
+    		<p class="see">
+    			See More>>>
+    		</p>
+		</button>
+    </a></center>
+
+    <br><br>
+  		 
+  		  <footer>
+    		<p class="wew">Wewstar.Gaming.Website</p>
+   		 </footer>
+
+	</body>
+</html>
